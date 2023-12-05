@@ -3255,8 +3255,8 @@ table.alt tbody tr td {
 #header.alt .logo img {
 	display: block;
 	margin: 0 auto;
-	width: 350px;
-	height: 70px;
+	width: 280px;
+	height: 60px;
 }
 
 @media screen and (max-width: 1280px) {
