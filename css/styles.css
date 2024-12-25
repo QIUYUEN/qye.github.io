@@ -66,12 +66,12 @@ nav {
     /* 水平居中对齐导航按钮 */
     gap: 20px;
     /* 按钮之间的间隔 */
-    margin-top: 30px;
+    margin-top: 600px;
     /* 设置导航栏与上面内容的间距 */
 }
 
 nav a {
-    width: 110px;
+    width: 95px;
     /* 设置统一的宽度 */
     height: 40px;
     /* 设置统一的高度 */
@@ -85,7 +85,7 @@ nav a {
     /* 按钮文字颜色为白色 */
     border-radius: 10px;
     /* 设置按钮圆角 */
-    font-size: 1em;
+    font-size: 14px;
     /* 设置按钮文字的字体大小 */
     transition: background-color 0.3s ease, transform 0.3s ease;
     /* 设置背景色和缩放效果的平滑过渡 */
