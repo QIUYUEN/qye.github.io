@@ -318,7 +318,7 @@ nav a:hover {
 
 /* link */
 #link {
-    padding: 50px 10px;
+    padding: 10px 130px;
     /* 设置作品集区域的内边距 */
     background-color: #f4f4f4;
     /* 设置作品集区域的背景色 */
@@ -499,6 +499,8 @@ nav a:hover {
     /* 设置描述文本的字体大小 */
     color: #666;
     /* 设置描述文本的颜色 */
+    text-align: center;
+    /* 设置文本居中对齐 */
 }
 
 /* 3rd DIV: Image Section */
