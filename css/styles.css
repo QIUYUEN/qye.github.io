@@ -232,6 +232,10 @@ nav a:hover {
 }
 
 #music img {
+    width: 25%;
+    /* 图片宽度占满父容器 */
+    height: auto;
+    /* 保持图片的原始比例 */
     margin-bottom: 20px;
     /* 设置作品集标题的下边距 */
 }
