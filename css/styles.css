@@ -16,7 +16,7 @@ body {
     /* 为了后面定位其他元素 */
     height: 800px;
     /* 设置高度 */
-    background-image: url('../image/background.jpg');
+    background-image: url('../image/background.avif');
     /* 设置背景图片 */
     background-size: cover;
     /* 背景图片覆盖整个区域 */
@@ -162,6 +162,14 @@ nav a:hover {
     /* 设置作品集区域的背景色 */
     text-align: center;
     /* 使作品集内容居中对齐 */
+    background-image: url('../image/room.avif');
+    /* 设置背景图片 */
+    background-size: cover;
+    /* 背景图片覆盖整个区域 */
+    background-position: center;
+    /* 背景图片居中 */
+    background-attachment: fixed;
+    /* 设置背景图片固定，使其在滚动时不移动，产生视差效果 */
 }
 
 #design img {
@@ -197,6 +205,14 @@ nav a:hover {
     /* 设置作品集区域的背景色 */
     text-align: center;
     /* 使作品集内容居中对齐 */
+    background-image: url('../image/xbox.avif');
+    /* 设置背景图片 */
+    background-size: cover;
+    /* 背景图片覆盖整个区域 */
+    background-position: center;
+    /* 背景图片居中 */
+    background-attachment: fixed;
+    /* 设置背景图片固定，使其在滚动时不移动，产生视差效果 */
 }
 
 #game img {
@@ -260,6 +276,14 @@ nav a:hover {
     /* 设置作品集区域的背景色 */
     text-align: center;
     /* 使作品集内容居中对齐 */
+    background-image: url('../image/uru.avif');
+    /* 设置背景图片 */
+    background-size: cover;
+    /* 背景图片覆盖整个区域 */
+    background-position: center;
+    /* 背景图片居中 */
+    background-attachment: fixed;
+    /* 设置背景图片固定，使其在滚动时不移动，产生视差效果 */
 }
 
 #music img {
