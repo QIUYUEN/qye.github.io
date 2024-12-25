@@ -22,6 +22,8 @@ body {
     /* 背景图片覆盖整个区域 */
     background-position: center;
     /* 背景图片居中 */
+    background-attachment: fixed;
+    /* 设置背景图片固定，使其在滚动时不移动，产生视差效果 */
     display: flex;
     /* 使用flex布局使内容垂直水平居中 */
     justify-content: center;
