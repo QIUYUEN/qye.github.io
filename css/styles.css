@@ -60,14 +60,21 @@ body {
 
 /* Navigation Bar */
 nav {
+    position: absolute;
+    /* 设置导航栏为绝对定位 */
+    bottom: 0;
+    /* 定位到父元素的底部 */
+    left: 50%;
+    /* 水平居中定位 */
+    transform: translateX(-50%);
+    /* 水平偏移，以实现真正居中 */
     display: flex;
     /* 使用flex布局 */
     justify-content: center;
     /* 水平居中对齐导航按钮 */
     gap: 20px;
     /* 按钮之间的间隔 */
-    margin-top: 600px;
-    /* 设置导航栏与上面内容的间距 */
+    padding-bottom: 20px; /* 可选：为导航栏底部添加内边距，避免按钮直接紧贴底部 */
 }
 
 nav a {
