@@ -66,7 +66,7 @@ nav {
     /* 水平居中对齐导航按钮 */
     gap: 20px;
     /* 按钮之间的间隔 */
-    margin-top: 20px;
+    margin-top: 30px;
     /* 设置导航栏与上面内容的间距 */
 }
 
@@ -423,9 +423,9 @@ nav a:hover {
 .linkimg {
     display: inline-block;
     /* 水平排列作品项 */
-    width: 15%;
+    width: 5%;
     /* 设置作品项的宽度 */
-    margin: 25px;
+    margin: 15px;
     /* 设置作品项之间的间距 */
     position: relative;
     /* 使父容器相对定位 */
@@ -442,8 +442,6 @@ nav a:hover {
     /* 添加平滑的缩放效果 */
     object-fit: cover;
     /* 确保图片覆盖容器，不拉伸 */
-    border-radius: 10px;
-    /* 给图片添加圆角 */
     transition: transform 0.3s ease, clip-path 0.3s ease;
     /* 平滑的过渡效果 */
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0);
