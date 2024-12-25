@@ -343,7 +343,7 @@ nav a:hover {
 }
 
 .portfolio-item img {
-    width: 100%;
+    width: 80%;
     /* 图片宽度占满父容器 */
     height: auto;
     /* 保持图片的原始比例 */
