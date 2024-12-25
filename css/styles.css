@@ -102,6 +102,14 @@ nav a:hover {
     /* 鼠标悬停时放大按钮 */
 }
 
+/* 当窗口宽度小于 768px 时隐藏导航按钮 */
+@media (max-width: 768px) {
+    nav a {
+        display: none;
+        /* 在小屏幕下隐藏按钮 */
+    }
+}
+
 /* blog */
 #blog {
     padding: 50px 20px;
