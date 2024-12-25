@@ -112,6 +112,13 @@ nav a:hover {
     /* 使作品集内容居中对齐 */
 }
 
+#blog img {
+    width: 100%;
+    /* 图片宽度占满父容器 */
+    height: auto;
+    /* 保持图片的原始比例 */
+}
+
 #blog h2 {
     color: #b0b0b0;
     /* 文字颜色为灰色 */
@@ -173,6 +180,13 @@ nav a:hover {
     /* 设置作品集区域的背景色 */
     text-align: center;
     /* 使作品集内容居中对齐 */
+}
+
+#game img {
+    width: 100%;
+    /* 图片宽度占满父容器 */
+    height: auto;
+    /* 保持图片的原始比例 */
 }
 
 #game h2 {
@@ -312,6 +326,13 @@ nav a:hover {
     /* 使作品集内容居中对齐 */
 }
 
+#link img {
+    width: 35px;
+    /* 图片宽度占满父容器 */
+    height: auto;
+    /* 保持图片的原始比例 */
+}
+
 #link h2 {
     color: #b0b0b0;
     /* 文字颜色为灰色 */
@@ -334,7 +355,7 @@ nav a:hover {
     /* 水平排列作品项 */
     width: 15%;
     /* 设置作品项的宽度 */
-    margin: 25px;
+    margin: 10px;
     /* 设置作品项之间的间距 */
     position: relative;
     /* 使父容器相对定位 */
