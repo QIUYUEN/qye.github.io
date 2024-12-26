@@ -28,7 +28,7 @@
         </div>
     </div>
 
-<!--2nd DIV:design Sectionn -->
+    <!--2nd DIV:design Sectionn -->
     <div id="design">
         <h2>DESIGN</h2>
         <p>是兴趣，也是工作</p>
@@ -216,7 +216,7 @@
         <div class="portfolio-item2">
             <img src="image/qye.png" alt="qye">
             <a href="mailto:admin@qye.net">
-            <p>admin@qye.net</p>
+                <p>admin@qye.net</p>
             </a>
         </div>
     </div>
@@ -258,6 +258,22 @@
     <div id="footer">
         <p>Copyright © 2001-2025 QYE.NET All rights reserved.</p>
     </div>
+
+    <script>
+        const hero = document.getElementById('hero');
+        window.addEventListener('scroll', () => {
+            const scrollOffset = window.scrollY;
+            hero.style.backgroundPositionY = `${scrollOffset * 0.5}px`;
+        });
+    </script>
+
+    <script>
+        const game = document.getElementById('game');
+        window.addEventListener('scroll', () => {
+            const scrollOffset = window.scrollY;
+            game.style.backgroundPositionY = `${scrollOffset * 0.3}px`;
+        });
+    </script>
 
 </body>
 
