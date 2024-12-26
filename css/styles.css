@@ -279,8 +279,6 @@ nav a:hover {
     /* 背景图片覆盖整个区域 */
     background-position: center;
     /* 背景图片居中 */
-    background-attachment: fixed;
-    /* 设置背景图片固定，使其在滚动时不移动，产生视差效果 */
 }
 
 #music img {
@@ -368,8 +366,6 @@ nav a:hover {
     /* 背景图片覆盖整个区域 */
     background-position: center;
     /* 背景图片居中 */
-    background-attachment: fixed;
-    /* 设置背景图片固定，使其在滚动时不移动，产生视差效果 */
 }
 
 #link img {
