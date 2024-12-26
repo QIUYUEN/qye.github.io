@@ -128,6 +128,14 @@
         <p>Copyright © 2001-2025 QYE.NET All rights reserved.</p>
     </div>
 
+    <script>
+        const hero = document.getElementById('hero');
+        window.addEventListener('scroll', () => {
+            const scrollOffset = window.scrollY;
+            hero.style.backgroundPositionY = `${scrollOffset * 0.6}px`;
+        });
+    </script>
+    
 </body>
 
 </html>
