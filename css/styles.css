@@ -322,8 +322,8 @@ nav a:hover {
     /* 设置作品集标题的下边距 */
 }
 
-/* email */
-#email {
+/* contact */
+#contact {
     padding: 50px 20px;
     /* 设置作品集区域的内边距 */
     background-color: #ffffff;
@@ -332,7 +332,7 @@ nav a:hover {
     /* 使作品集内容居中对齐 */
 }
 
-#email h2 {
+#contact h2 {
     color: #b0b0b0;
     /* 文字颜色为灰色 */
     font-size: 40px;
@@ -341,14 +341,14 @@ nav a:hover {
     /* 设置作品集标题的下边距 */
 }
 
-#email p {
+#contact p {
     color: #505050;
     /* 文字颜色为灰色 */
     font-size: 15px;
     /* 设置作品集标题的字体大小 */
 }
 
-#email p {
+#contact p {
     color: #505050;
     /* 文字颜色为灰色 */
     font-size: 15px;
