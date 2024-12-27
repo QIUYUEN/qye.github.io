@@ -90,6 +90,14 @@
     </div>
 
     <script>
+        const hero = document.getElementById('hero');
+        window.addEventListener('scroll', () => {
+            const scrollOffset = window.scrollY;
+            hero.style.backgroundPositionY = `${scrollOffset * 0.6}px`;
+        });
+    </script>
+
+    <script>
         const design = document.getElementById('design');
         window.addEventListener('scroll', () => {
             const scrollOffset = window.scrollY;
