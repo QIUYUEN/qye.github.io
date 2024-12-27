@@ -464,7 +464,36 @@ nav a:hover {
 .portfolio-item:hover img {
     transform: scale(1.1);
     /* 鼠标悬停时图片放大 */
+    border: 2px solid transparent; 
+    /* 描边大小 */
+    animation: border-color-cycle 3s infinite linear;
+    /* 颜色循环时间 */
 }
+
+/* 颜色循环设置 */
+ @keyframes border-color-cycle {
+   0% {
+    border-color: #ff0000; /* 红 */
+   }
+   15% {
+    border-color: #ff7f00; /* 橙 */
+   }
+   30% {
+    border-color: #00ff00; /* 绿 */
+   }
+   45% {
+    border-color: #0000ff; /* 蓝 */
+   }
+   60% {
+    border-color: #ffff00; /* 黄 */
+   }
+   85% {
+    border-color: #8b00ff; /* 紫 */
+   }
+   100% {
+    border-color: #ff0000; /* 回到红 */
+   }
+ }
 
 .portfolio-item h3 {
     margin-top: 10px;
