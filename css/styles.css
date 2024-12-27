@@ -289,8 +289,8 @@ nav a:hover {
 }
 
 #music h2 {
-    color: #b0b0b0;
-    /* 文字颜色为灰色 */
+    color: #ffffff;
+    /* 文字颜色为白色 */
     font-size: 40px;
     /* 设置作品集标题的字体大小 */
     margin-bottom: 20px;
@@ -298,8 +298,8 @@ nav a:hover {
 }
 
 #music h3 {
-    color: #505050;
-    /* 文字颜色为灰色 */
+    color: #ffffff;
+    /* 文字颜色为白色 */
     font-size: 20px;
     /* 设置作品集标题的字体大小 */
     margin-bottom: 20px;
@@ -307,8 +307,8 @@ nav a:hover {
 }
 
 #music p {
-    color: #505050;
-    /* 文字颜色为灰色 */
+    color: #ffffff;
+    /* 文字颜色为白色 */
     font-size: 15px;
     /* 设置作品集标题的字体大小 */
     margin-bottom: 15px;
