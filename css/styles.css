@@ -171,10 +171,6 @@ nav a:hover {
     /* 背景图片覆盖整个区域 */
     background-position: center;
     /* 背景图片居中 */
-    flex-direction: column; 
-    /* 垂直排列子元素 */
-    align-items: center; 
-    /* 水平居中对齐子元素 */
 }
 
 #design img {
