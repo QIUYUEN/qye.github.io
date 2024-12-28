@@ -409,6 +409,8 @@ nav a:hover {
     /* 使父容器相对定位 */
     cursor: pointer;
     /* 鼠标悬停时为手形 */
+    align-items: center; 
+    /* 水平居中对齐子元素 */
 }
 
 .portfolio-item img {
