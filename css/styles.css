@@ -47,12 +47,12 @@ body {
 }
 
 #hero h1 {
-    font-size: 4em;
+    font-size: 35px;
     /* 设置主标题的字体大小 */
 }
 
 #hero .welcome-text {
-    font-size: 23px;
+    font-size: 13px;
     /* 设置欢迎文本的字体大小 */
     margin-top: 1px;
     /* 设置欢迎文本的上边距 */
