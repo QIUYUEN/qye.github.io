@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DESIGN</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- 1nd DIV: Hero Section -->
+    <div id="hero">
+        <div class="hero-content">
+            <h1>QYE.NET</h1>
+            <p class="welcome-text">WELCOME ようこそ 儂好</p>
+            <nav>
+                <a href="https://www.qye.net/">HOME</a>
+                <a href="https://www.qye.net/#blog">BLOG</a>
+                <a href="https://www.qye.net/#design">DESIGN</a>
+                <a href="https://www.qye.net/#game">GAME</a>
+                <a href="#ai">AI</a>
+                <a href="https://www.qye.net/#music">MUSIC</a>
+                <a href="https://www.qye.net/#contact">CONTACT</a>
+            </nav>
+        </div>
+    </div>
+
+    <!--3nd DIV:ai Sectionn -->
+    <div id="ai">
+        <h2>AI</h2>
+        <p>简单易用的人工智能</p>
+        <div>
+            <iframe src="https://ai.rmb.run" name="toppage" width="80%" marginwidth="0" height="800px" marginheight="0"
+                frameborder="no" border="0"></iframe>
+        </div>
+
+    </div>
+
+    <!--10nd DIV: footer Sectionn -->
+    <div id="footer">
+        <p>Copyright © 2001-2025 QYE.NET All rights reserved.</p>
+    </div>
+
+    <script>
+        const hero = document.getElementById('hero');
+        window.addEventListener('scroll', () => {
+            const scrollOffset = window.scrollY;
+            hero.style.backgroundPositionY = `${scrollOffset * 0.6}px`;
+        });
+    </script>
+    
+</body>
+
+</html>
