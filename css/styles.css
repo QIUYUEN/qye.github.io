@@ -118,6 +118,47 @@ nav a:hover {
     }
 }
 
+/* anniversary */
+#anniversary {
+    padding: 50px 20px;
+    /* 设置作品集区域的内边距 */
+    background-color: #ffffff;
+    /* 设置作品集区域的背景色 */
+    text-align: center;
+    /* 使作品集内容居中对齐 */
+    background-image: url('../image/25.png');
+    /* 设置背景图片 */
+    background-size: cover;
+    /* 背景图片覆盖整个区域 */
+    background-position: center;
+    /* 背景图片居中 */
+}
+
+#anniversary img {
+    width: 100%;
+    /* 图片宽度占满父容器 */
+    height: auto;
+    /* 保持图片的原始比例 */
+}
+
+#anniversary h2 {
+    color: #b0b0b0;
+    /* 文字颜色为灰色 */
+    font-size: 40px;
+    /* 设置作品集标题的字体大小 */
+    margin-bottom: 20px;
+    /* 设置作品集标题的下边距 */
+}
+
+#anniversary p {
+    color: #505050;
+    /* 文字颜色为灰色 */
+    font-size: 15px;
+    /* 设置作品集标题的字体大小 */
+    margin-bottom: 15px;
+    /* 设置作品集标题的下边距 */
+}
+
 /* blog */
 #blog {
     padding: 50px 20px;
