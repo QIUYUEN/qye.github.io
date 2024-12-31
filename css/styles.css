@@ -1,4 +1,4 @@
-/* 重置样式以确保跨浏览器一致性 */
+/* Reset some styles to ensure consistency across browsers */
 * {
     margin: 0;
     padding: 0;
@@ -132,6 +132,8 @@ nav a:hover {
     /* 背景图片覆盖整个区域 */
     background-position: center;
     /* 背景图片居中 */
+    background-repeat: no-repeat; 
+    /* 禁止重复背景图像 */
 }
 
 #anniversary img {
@@ -318,10 +320,10 @@ nav a:hover {
     /* 使作品集内容居中对齐 */
     background-image: url('../image/tokyo.avif');
     /* 设置背景图片 */
-    background-size: cover;
-    /* 背景图片覆盖整个区域 */
-    background-position: center;
-    /* 背景图片居中 */
+    background-size: cover;  
+    /* 背景图按比例缩放覆盖整个元素 */
+    background-position: center;  
+    /* 背景图居中 */
     background-attachment: fixed;  
     /* 背景图固定 */
 }
