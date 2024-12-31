@@ -322,6 +322,8 @@ nav a:hover {
     /* 背景图片覆盖整个区域 */
     background-position: center;
     /* 背景图片居中 */
+    background-attachment: fixed;  
+    /* 背景图固定 */
 }
 
 #music img {
