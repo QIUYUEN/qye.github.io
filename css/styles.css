@@ -120,20 +120,20 @@ nav a:hover {
 
 /* anniversary */
 #anniversary {
-    padding: 50px 20px;
+    padding: 50px 2px;
     /* 设置作品集区域的内边距 */
-    background-color: #ffffff;
+    background-color: #f4f4f4;
     /* 设置作品集区域的背景色 */
     text-align: center;
     /* 使作品集内容居中对齐 */
     background-image: url('../image/25.avif');
     /* 设置背景图片 */
-    background-size: cover;
-    /* 背景图片覆盖整个区域 */
-    background-position: center;
-    /* 背景图片居中 */
-    background-repeat: no-repeat; 
-    /* 禁止重复背景图像 */
+    background-size: cover;  
+    /* 背景图按比例缩放覆盖整个元素 */
+    background-position: center;  
+    /* 背景图居中 */
+    background-attachment: fixed;  
+    /* 背景图固定 */
 }
 
 #anniversary img {
@@ -204,16 +204,18 @@ nav a:hover {
 #design {
     padding: 50px 20px;
     /* 设置作品集区域的内边距 */
-    background-color: #ffffff;
+    background-color: #f4f4f4;
     /* 设置作品集区域的背景色 */
     text-align: center;
     /* 使作品集内容居中对齐 */
     background-image: url('../image/white.avif');
     /* 设置背景图片 */
-    background-size: cover;
-    /* 背景图片覆盖整个区域 */
-    background-position: center;
-    /* 背景图片居中 */
+    background-size: cover;  
+    /* 背景图按比例缩放覆盖整个元素 */
+    background-position: center;  
+    /* 背景图居中 */
+    background-attachment: fixed;  
+    /* 背景图固定 */
 }
 
 #design img {
@@ -251,10 +253,12 @@ nav a:hover {
     /* 使作品集内容居中对齐 */
     background-image: url('../image/xbox.avif');
     /* 设置背景图片 */
-    background-size: cover;
-    /* 背景图片覆盖整个区域 */
-    background-position: center;
-    /* 背景图片居中 */
+    background-size: cover;  
+    /* 背景图按比例缩放覆盖整个元素 */
+    background-position: center;  
+    /* 背景图居中 */
+    background-attachment: fixed;  
+    /* 背景图固定 */
 }
 
 #game img {
@@ -409,10 +413,12 @@ nav a:hover {
     /* 使作品集内容居中对齐 */
     background-image: url('../image/link.avif');
     /* 设置背景图片 */
-    background-size: cover;
-    /* 背景图片覆盖整个区域 */
-    background-position: center;
-    /* 背景图片居中 */
+    background-size: cover;  
+    /* 背景图按比例缩放覆盖整个元素 */
+    background-position: center;  
+    /* 背景图居中 */
+    background-attachment: fixed;  
+    /* 背景图固定 */
 }
 
 #link img {
