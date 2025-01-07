@@ -13,10 +13,6 @@ body {
 #hero {
     position: relative;
     /* 为了后面定位其他元素 */
-    width: 100vw;
-    /* 设置宽度 */
-    height: 80vh;
-    /* 设置高度 */
     background-image: url('../image/background.avif');
     /* 设置背景图片 */
     background-size: cover;
@@ -121,10 +117,6 @@ nav a:hover {
 
 /* anniversary */
 #anniversary {
-    width: 100vw;
-    /* 设置宽度 */
-    height: 40vh;
-    /* 设置高度 */
     padding: 50px 2px;
     /* 设置作品集区域的内边距 */
     background-color: #f4f4f4;
@@ -168,8 +160,6 @@ nav a:hover {
 
 /* blog */
 #blog {
-    width: 100vw;
-    /* 设置宽度 */
     padding: 50px 20px;
     /* 设置作品集区域的内边距 */
     background-color: #f4f4f4;
@@ -254,10 +244,6 @@ nav a:hover {
 
 /* game */
 #game {
-    width: 100vw;
-    /* 设置宽度 */
-    height: 50vh;
-    /* 设置高度 */
     padding: 50px 20px;
     /* 设置作品集区域的内边距 */
     background-color: #f4f4f4;
@@ -301,8 +287,6 @@ nav a:hover {
 
 /* ai */
 #ai {
-    width: 100vw;
-    /* 设置宽度 */
     padding: 50px 20px;
     /* 设置作品集区域的内边距 */
     background-color: #ffffff;
@@ -331,8 +315,6 @@ nav a:hover {
 
 /* music */
 #music {
-    width: 100vw;
-    /* 设置宽度 */
     padding: 50px 20px;
     /* 设置作品集区域的内边距 */
     background-color: #f4f4f4;
@@ -424,8 +406,6 @@ nav a:hover {
 
 /* link */
 #link {
-    width: 100vw;
-    /* 设置宽度 */
     padding: 10px 130px;
     /* 设置作品集区域的内边距 */
     background-color: #f4f4f4;
