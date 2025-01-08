@@ -11,12 +11,10 @@ body {
 
 /* 1st DIV: Hero Section */
 #hero {
-    width: 100%;
-    /* 图片宽度占满父容器 */
-    height: 800px;
-    /* 保持图片的原始比例 */
     position: relative;
     /* 为了后面定位其他元素 */
+    height: 800px;
+    /* 设置高度 */
     background-image: url('../image/background.avif');
     /* 设置背景图片 */
     background-size: cover;
@@ -203,8 +201,6 @@ nav a:hover {
 
 /* design */
 #design {
-    width: 100vw;
-    /* 设置宽度 */
     padding: 50px 20px;
     /* 设置作品集区域的内边距 */
     background-color: #f4f4f4;
@@ -373,8 +369,6 @@ nav a:hover {
 
 /* contact */
 #contact {
-    width: 100vw;
-    /* 设置宽度 */
     padding: 50px 20px;
     /* 设置作品集区域的内边距 */
     background-color: #ffffff;
@@ -449,14 +443,16 @@ nav a:hover {
     /* 设置作品集标题的字体大小 */
 }
 
-/* 每个内容选项 */
+/* 每个作品项 */
 .portfolio-item {
     display: inline-block;
-    /* 水平排列内容 */
+    /* 水平排列作品项 */
     width: 18%;
     /* 设置作品项的宽度 */
     margin: 10px;
     /* 设置作品项之间的间距 */
+    position: relative;
+    /* 使父容器相对定位 */
     cursor: pointer;
     /* 鼠标悬停时为手形 */
     align-items: center; 
@@ -489,6 +485,34 @@ nav a:hover {
     /* 确保图片覆盖容器，不拉伸 */
     transition: transform 0.3s ease, clip-path 0.3s ease;
     /* 平滑的过渡效果 */
+}
+
+.portfolio-item3 img {
+    width: 80%;
+    /* 图片宽度占满父容器 */
+    height: auto;
+    /* 保持图片的原始比例 */
+    transition: transform 0.2s ease;
+    /* 添加平滑的缩放效果 */
+    object-fit: cover;
+    /* 确保图片覆盖容器，不拉伸 */
+    border-radius: 10px;
+    /* 给图片添加圆角 */
+    transition: transform 0.3s ease, clip-path 0.3s ease;
+    /* 平滑的过渡效果 */
+    box-shadow: 0px 0px 10px rgba(0.5, 0.5, 0.3, 0.3);
+    /* 阴影效果 */
+    margin-bottom: 20px;
+    /* 设置第div底部的间距 */
+}
+
+.portfolio-item3 h3 {
+    font-size: 30px;
+    /* 设置标题的字体大小 */
+    color: #505050;
+    /* 设置描述文本的颜色 */
+    margin-bottom: 20px;
+    /* 设置作品集标题的下边距 */
 }
 
 .portfolio-item:hover img {
