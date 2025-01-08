@@ -11,6 +11,10 @@ body {
 
 /* 1st DIV: Hero Section */
 #hero {
+    width: 100%;
+    /* 图片宽度占满父容器 */
+    height: 800px;
+    /* 保持图片的原始比例 */
     position: relative;
     /* 为了后面定位其他元素 */
     background-image: url('../image/background.avif');
