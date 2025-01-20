@@ -477,14 +477,14 @@ nav a:hover {
     /* 水平排列作品项 */
     width: 18%;
     /* 设置作品项的宽度 */
-    margin: 10px;
-    /* 设置作品项之间的间距 */
     position: relative;
     /* 使父容器相对定位 */
+    margin-right: 20px; 
+    /* 右侧间距 */
 }
 
 .portfolio-item img {
-    width: 80%;
+    width: 100%;
     /* 图片宽度占满父容器 */
     height: auto;
     /* 保持图片的原始比例 */
