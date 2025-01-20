@@ -6,10 +6,12 @@
 
 body {
     font-family: Arial, sans-serif;
-    /* 设置通用字体 */
+    background-color: #fdfbfe;
+    /* 鼠标悬停时改变背景色 */
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 /* 1st DIV: Hero Section */
@@ -122,10 +124,10 @@ nav a:hover {
 
 /* anniversary */
 #anniversary {
+    width: 90%;
+    /* 宽度 */
     padding: 50px 2px;
     /* 设置作品集区域的内边距 */
-    background-color: #f4f4f4;
-    /* 设置作品集区域的背景色 */
     text-align: center;
     /* 使作品集内容居中对齐 */
     background-image: url('../image/25.avif');
@@ -136,6 +138,15 @@ nav a:hover {
     /* 背景图居中 */
     background-attachment: fixed;  
     /* 背景图固定 */
+    flex-direction: column;
+    /* 内容垂直排列 */
+    align-items: center;
+    /* 内容水平居中 */
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 #anniversary img {
@@ -385,6 +396,13 @@ nav a:hover {
     /* 使作品集内容居中对齐 */
 }
 
+#contact img {
+    width: 200px;
+    /* 图片宽度 */
+    height: auto;
+    /* 保持图片的原始比例 */
+}
+
 #contact h2 {
     color: #b0b0b0;
     /* 文字颜色为灰色 */
@@ -429,10 +447,12 @@ nav a:hover {
 }
 
 #link img {
+    display: inline-block;
+    /* 水平排列作品项 */
     width: 35px;
-    /* 图片宽度占满父容器 */
-    height: auto;
-    /* 保持图片的原始比例 */
+    /* 设置作品项的宽度 */
+    margin: 15px;
+    /* 设置作品项之间的间距 */
 }
 
 #link h2 {
@@ -461,10 +481,6 @@ nav a:hover {
     /* 设置作品项之间的间距 */
     position: relative;
     /* 使父容器相对定位 */
-    cursor: pointer;
-    /* 鼠标悬停时为手形 */
-    align-items: center; 
-    /* 水平居中对齐子元素 */
 }
 
 .portfolio-item img {
@@ -482,45 +498,6 @@ nav a:hover {
     /* 平滑的过渡效果 */
     box-shadow: 0px 0px 10px rgba(0.5, 0.5, 0.3, 0.3);
     /* 阴影效果 */
-}
-
-.portfolio-item2 img {
-    width: 250px;
-    /* 图片宽度 */
-    height: auto;
-    /* 保持图片的原始比例 */
-    object-fit: cover;
-    /* 确保图片覆盖容器，不拉伸 */
-    transition: transform 0.3s ease, clip-path 0.3s ease;
-    /* 平滑的过渡效果 */
-}
-
-.portfolio-item3 img {
-    width: 80%;
-    /* 图片宽度占满父容器 */
-    height: auto;
-    /* 保持图片的原始比例 */
-    transition: transform 0.2s ease;
-    /* 添加平滑的缩放效果 */
-    object-fit: cover;
-    /* 确保图片覆盖容器，不拉伸 */
-    border-radius: 10px;
-    /* 给图片添加圆角 */
-    transition: transform 0.3s ease, clip-path 0.3s ease;
-    /* 平滑的过渡效果 */
-    box-shadow: 0px 0px 10px rgba(0.5, 0.5, 0.3, 0.3);
-    /* 阴影效果 */
-    margin-bottom: 20px;
-    /* 设置第div底部的间距 */
-}
-
-.portfolio-item3 h3 {
-    font-size: 30px;
-    /* 设置标题的字体大小 */
-    color: #505050;
-    /* 设置描述文本的颜色 */
-    margin-bottom: 20px;
-    /* 设置作品集标题的下边距 */
 }
 
 .portfolio-item:hover img {
@@ -571,69 +548,6 @@ nav a:hover {
     /* 设置描述文本的字体大小 */
     color: #666;
     /* 设置描述文本的颜色 */
-}
-
-/* LINK图片 */
-.linkimg {
-    display: inline-block;
-    /* 水平排列作品项 */
-    width: 5%;
-    /* 设置作品项的宽度 */
-    margin: 15px;
-    /* 设置作品项之间的间距 */
-    position: relative;
-    /* 使父容器相对定位 */
-    cursor: pointer;
-    /* 鼠标悬停时为手形 */
-}
-
-.linkimg img {
-    width: 40px;
-    /* 图片宽度占满父容器 */
-    height: auto;
-    /* 保持图片的原始比例 */
-    transition: transform 0.2s ease;
-    /* 添加平滑的缩放效果 */
-    object-fit: cover;
-    /* 确保图片覆盖容器，不拉伸 */
-    transition: transform 0.3s ease, clip-path 0.3s ease;
-    /* 平滑的过渡效果 */
-    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0);
-    /* 阴影效果 */
-}
-
-.linkimg2 img {
-    width: 100%;
-    /* 图片宽度 */
-    height: auto;
-    /* 保持图片的原始比例 */
-    object-fit: cover;
-    /* 确保图片覆盖容器，不拉伸 */
-    transition: transform 0.3s ease, clip-path 0.3s ease;
-    /* 平滑的过渡效果 */
-}
-
-.linkimg:hover img {
-    transform: scale(1.2);
-    /* 鼠标悬停时图片放大 */
-}
-
-.linkimg h3 {
-    margin-top: 10px;
-    /* 设置标题与图片的上边距 */
-    font-size: 1.2em;
-    /* 设置标题的字体大小 */
-    color: #505050;
-    /* 设置描述文本的颜色 */
-}
-
-.linkimg p {
-    font-size: 0.9em;
-    /* 设置描述文本的字体大小 */
-    color: #666;
-    /* 设置描述文本的颜色 */
-    text-align: center;
-    /* 设置文本居中对齐 */
 }
 
 /* 3rd DIV: Image Section */
