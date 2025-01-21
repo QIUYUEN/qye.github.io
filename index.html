@@ -110,66 +110,48 @@
         <h2>BLOG</h2>
         <hr style="border: 1px solid #c5c5c5; width: 40%; margin: 20px auto;">
         <p>生活，美食，摄影和旅行</p>
-        <div class="portfolio-item">
-            <a href="blog_12.html"><img src="image/sushi.avif" alt="blog"></a>
-            <h3>手作寿司</h3>
-            <p>日料仙人警告</p>
+
+        <div id="carousel">
+
+            <ul class="slides">
+                <input type="radio" id="control-1" name="control" checked>
+                <input type="radio" id="control-2" name="control">
+                <input type="radio" id="control-3" name="control">
+                <input type="radio" id="control-4" name="control">
+                <input type="radio" id="control-5" name="control">
+                <input type="radio" id="control-6" name="control">
+                <input type="radio" id="control-7" name="control">
+                <input type="radio" id="control-8" name="control">
+                <input type="radio" id="control-9" name="control">
+                <input type="radio" id="control-10" name="control">
+
+                <li class="slide"><a href="blog_12.html" target="_blank"></a></li>
+                <li class="slide"><a href="blog_11.html" target="_blank"></a></li>
+                <li class="slide"><a href="blog_10.html" target="_blank"></a></li>
+                <li class="slide"><a href="blog_9.html" target="_blank"></a></li>
+                <li class="slide"><a href="blog_8.html" target="_blank"></a></li>
+                <li class="slide"><a href="blog_7.html" target="_blank"></a></li>
+                <li class="slide"><a href="blog_6.html" target="_blank"></a></li>
+                <li class="slide"><a href="blog_5.html" target="_blank"></a></li>
+                <li class="slide"><a href="blog_4.html" target="_blank"></a></li>
+                <li class="slide"><a href="blog_3.html" target="_blank"></a></li>
+
+                <div class="controls-visible">
+                    <label for="control-1"></label>
+                    <label for="control-2"></label>
+                    <label for="control-3"></label>
+                    <label for="control-4"></label>
+                    <label for="control-5"></label>
+                    <label for="control-6"></label>
+                    <label for="control-7"></label>
+                    <label for="control-8"></label>
+                    <label for="control-9"></label>
+                    <label for="control-10"></label>
+                </div>
+            </ul>
+
         </div>
-        <div class="portfolio-item">
-            <a href="blog_11.html"><img src="image/guangzhou.avif" alt="blog"></a>
-            <h3>得闲出嚟饮茶</h3>
-            <p>美食商贸之都</p>
-        </div>
-        <div class="portfolio-item">
-            <a href="blog_10.html"><img src="image/r78700g.avif" alt="blog"></a>
-            <h3>内置NPU</h3>
-            <p>AI硬件普及</p>
-        </div>
-        <div class="portfolio-item">
-            <a href="blog_9.html"><img src="image/xiamen.avif" alt="blog"></a>
-            <h3>冬季的厦门</h3>
-            <p>鼓浪屿和八市</p>
-        </div>
-        <div class="portfolio-item">
-            <a href="blog_8.html"><img src="image/chongqing.avif" alt="blog"></a>
-            <h3>重庆物语</h3>
-            <p>不可思议山城</p>
-        </div>
-        <div class="portfolio-item">
-            <a href="blog_7.html"><img src="image/sakura.avif" alt="blog"></a>
-            <h3>樱花盛开</h3>
-            <p>三四月苏州河</p>
-        </div>
-        <div class="portfolio-item">
-            <a href="blog_6.html"><img src="image/qsz.avif" alt="blog"></a>
-            <h3>假日摄影</h3>
-            <p>魔都精彩瞬间</p>
-        </div>
-        <div class="portfolio-item">
-            <a href="blog_5.html"><img src="image/cat.avif" alt="blog"></a>
-            <h3>猫</h3>
-            <p>楼下的野猫</p>
-        </div>
-        <div class="portfolio-item">
-            <a href="blog_4.html"><img src="image/covid19.avif" alt="blog"></a>
-            <h3>疫情众生相</h3>
-            <p>保持独立思考</p>
-        </div>
-        <div class="portfolio-item">
-            <a href="blog_3.html"><img src="image/japan2.avif" alt="blog"></a>
-            <h3>日本关西行</h3>
-            <p>大阪京都之旅</p>
-        </div>
-        <div class="portfolio-item">
-            <a href="blog_2.html"><img src="image/japan1.avif" alt="blog"></a>
-            <h3>你好，日本</h3>
-            <p>盛世公主号</p>
-        </div>
-        <div class="portfolio-item">
-            <a href="blog_1.html"><img src="image/disney.avif" alt="blog"></a>
-            <h3>上海迪士尼</h3>
-            <p>童话世界</p>
-        </div>
+
         <div class="learn-more">
             <a href="blog.html" class="button">更多日志</a>
         </div>
@@ -265,6 +247,17 @@
             const scrollOffset = window.scrollY;
             hero.style.backgroundPositionY = `${scrollOffset * 0.7}px`;
         });
+    </script>
+
+    <script>
+        const radios = document.querySelectorAll('input[type="radio"]');
+        let currentIndex = 0;
+
+        setInterval(() => {
+            radios[currentIndex].checked = false;
+            currentIndex = (currentIndex + 1) % radios.length;
+            radios[currentIndex].checked = true;
+        }, 2000);
     </script>
 
 </body>
