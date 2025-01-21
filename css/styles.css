@@ -132,11 +132,11 @@ nav a:hover {
     /* 使作品集内容居中对齐 */
     background-image: url('../image/25.avif');
     /* 设置背景图片 */
-    background-size: cover;  
+    background-size: cover;
     /* 背景图按比例缩放覆盖整个元素 */
-    background-position: center;  
+    background-position: center;
     /* 背景图居中 */
-    background-attachment: fixed;  
+    background-attachment: fixed;
     /* 背景图固定 */
     flex-direction: column;
     /* 内容垂直排列 */
@@ -174,6 +174,358 @@ nav a:hover {
     /* 设置作品集标题的下边距 */
 }
 
+/* carousel */
+#carousel {
+    width: 80%;
+    /* 图片宽度占满父容器 */
+    height: auto;
+    /* 保持图片的原始比例 */
+    flex-direction: column;
+    /* 内容垂直排列 */
+}
+
+/* 轮播图的容器样式 */
+ul.slides {
+    position: relative;
+    /* 使其成为定位容器 */
+    width: 100%;
+    /* 轮播图的宽度 */
+    height: 600px;
+    /* 轮播图的高度 */
+    list-style: none;
+    /* 去掉默认的列表样式 */
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    /* 设置背景色为透明 */
+    overflow: hidden;
+    /* 超出容器部分隐藏 */
+    margin-left: 12.5%;
+    /* 设置子容器离左边的距离 */
+}
+
+/* 每个轮播图片项的样式 */
+li.slide {
+    margin: 0;
+    padding: 0;
+    width: inherit;
+    /* 继承父元素宽度 */
+    height: inherit;
+    /* 继承父元素高度 */
+    position: absolute;
+    /* 绝对定位 */
+    top: 0;
+    left: 0;
+    display: flex;
+    /* 使用 flexbox 对内容进行对齐 */
+    justify-content: center;
+    /* 水平居中 */
+    align-items: center;
+    /* 垂直居中 */
+    font-family: Helvetica;
+    /* 字体 */
+    font-size: 20px;
+    /* 字体大小 */
+    color: #fff;
+    /* 字体颜色为白色 */
+    transition: .5s transform ease-in-out;
+    /* 图片切换时的过渡效果 */
+}
+
+li.slide a {
+    display: block;
+    /* 让 <a> 标签成为块级元素 */
+    width: 100%;
+    /* 让 <a> 标签占满整个父元素 */
+    height: 100%;
+    /* 让 <a> 标签占满整个父元素 */
+    position: absolute;
+    /* 使其覆盖整个父元素 */
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    /* 去除默认的下划线 */
+    z-index: 1;
+    /* 保证链接在图片上层 */
+    cursor: pointer;
+    /* 鼠标变成可点击状态 */
+}
+
+/* 第一个轮播图片的背景颜色 */
+.slide:nth-of-type(1) {
+    background-image: url('../image/sushi_3.avif');
+    /* 图片路径 */
+    border-radius: 15px;
+    /* 设置圆角*/
+    background-size: cover;
+    /* 背景图片覆盖整个区域 */
+}
+
+/* 第二个轮播图片的背景颜色，并设置初始位置在容器外 */
+.slide:nth-of-type(2) {
+    background-image: url('../image/guangzhou_26.avif');
+    /* 图片路径 */
+    border-radius: 15px;
+    /* 设置圆角*/
+    left: 100%;
+    /* 将其定位在容器的右侧 */
+    background-size: cover;
+    /* 背景图片覆盖整个区域 */
+}
+
+/* 第三个轮播图片的背景颜色，并设置初始位置在容器外 */
+.slide:nth-of-type(3) {
+    background-image: url('../image/8700g_3.avif');
+    /* 图片路径 */
+    border-radius: 15px;
+    /* 设置圆角*/
+    left: 200%;
+    /* 将其定位在容器的右侧 */
+    background-size: cover;
+    /* 背景图片覆盖整个区域 */
+}
+
+/* 第四个轮播图片的背景颜色 */
+.slide:nth-of-type(4) {
+    background-image: url('../image/xiamen_10.avif');
+    /* 图片路径 */
+    border-radius: 15px;
+    /* 设置圆角*/
+    left: 300%;
+    /* 将其定位在容器的右侧 */
+    background-size: cover;
+    /* 背景图片覆盖整个区域 */
+}
+
+/* 第五个轮播图片的背景颜色，并设置初始位置在容器外 */
+.slide:nth-of-type(5) {
+    background-image: url('../image/chongqing_19.avif');
+    /* 图片路径 */
+    border-radius: 15px;
+    /* 设置圆角*/
+    left: 400%;
+    /* 将其定位在容器的右侧 */
+    background-size: cover;
+    /* 背景图片覆盖整个区域 */
+}
+
+/* 第六个轮播图片的背景颜色，并设置初始位置在容器外 */
+.slide:nth-of-type(6) {
+    background-image: url('../image/sakura_13.avif');
+    /* 图片路径 */
+    border-radius: 15px;
+    /* 设置圆角*/
+    left: 500%;
+    /* 将其定位在容器的右侧 */
+    background-size: cover;
+    /* 背景图片覆盖整个区域 */
+}
+
+/* 第七个轮播图片的背景颜色 */
+.slide:nth-of-type(7) {
+    background-image: url('../image/qsz.avif');
+    /* 图片路径 */
+    border-radius: 15px;
+    /* 设置圆角*/
+    left: 600%;
+    /* 将其定位在容器的右侧 */
+    background-size: cover;
+    /* 背景图片覆盖整个区域 */
+}
+
+/* 第八个轮播图片的背景颜色，并设置初始位置在容器外 */
+.slide:nth-of-type(8) {
+    background-image: url('../image/cat.avif');
+    /* 图片路径 */
+    border-radius: 15px;
+    /* 设置圆角*/
+    left: 700%;
+    /* 将其定位在容器的右侧 */
+    background-size: cover;
+    /* 背景图片覆盖整个区域 */
+}
+
+/* 第九个轮播图片的背景颜色，并设置初始位置在容器外 */
+.slide:nth-of-type(9) {
+    background-image: url('../image/covid19.avif');
+    /* 图片路径 */
+    border-radius: 15px;
+    /* 设置圆角*/
+    left: 800%;
+    /* 将其定位在容器的右侧 */
+    background-size: cover;
+    /* 背景图片覆盖整个区域 */
+}
+
+/* 第十个轮播图片的背景颜色，并设置初始位置在容器外 */
+.slide:nth-of-type(10) {
+    background-image: url('../image/Kansai (73).avif');
+    /* 图片路径 */
+    border-radius: 15px;
+    /* 设置圆角*/
+    left: 900%;
+    /* 将其定位在容器的右侧 */
+    background-size: cover;
+    /* 背景图片覆盖整个区域 */
+}
+
+/* 隐藏的 radio 按钮控制器样式 */
+input[type="radio"] {
+    position: relative;
+    z-index: 100;
+    display: none;
+    /* 隐藏 radio 按钮 */
+}
+
+/* 控制器下方的圆点按钮样式 */
+.controls-visible {
+    position: absolute;
+    width: 100%;
+    /* 控制器宽度与容器一致 */
+    bottom: 12px;
+    /* 控制器与底部间隔 */
+    text-align: center;
+    /* 水平居中 */
+}
+
+/* 控制器中的圆点按钮样式 */
+.controls-visible label {
+    display: inline-block;
+    /* 横向排列 */
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    /* 圆点颜色 */
+    border-radius: 50%;
+    /* 圆形 */
+    margin: 0 3px;
+    /* 圆点之间的间隔 */
+    border: 2px solid #fff;
+    /* 白色边框 */
+    cursor: pointer;
+    /* 鼠标变成可点击状态 */
+}
+
+/* 根据 radio 按钮的状态，更新圆点的颜色 */
+.slides input[type="radio"]:nth-of-type(1):checked~.controls-visible label:nth-of-type(1) {
+    background-color: #ff8000;
+    /* 已选中的圆点变为深色 */
+}
+
+.slides input[type="radio"]:nth-of-type(2):checked~.controls-visible label:nth-of-type(2) {
+    background-color: #ff8000;
+}
+
+.slides input[type="radio"]:nth-of-type(3):checked~.controls-visible label:nth-of-type(3) {
+    background-color: #ff8000;
+}
+
+.slides input[type="radio"]:nth-of-type(4):checked~.controls-visible label:nth-of-type(4) {
+    background-color: #ff8000;
+}
+
+.slides input[type="radio"]:nth-of-type(5):checked~.controls-visible label:nth-of-type(5) {
+    background-color: #ff8000;
+}
+
+.slides input[type="radio"]:nth-of-type(6):checked~.controls-visible label:nth-of-type(6) {
+    background-color: #ff8000;
+}
+
+.slides input[type="radio"]:nth-of-type(7):checked~.controls-visible label:nth-of-type(7) {
+    background-color: #ff8000;
+}
+
+.slides input[type="radio"]:nth-of-type(8):checked~.controls-visible label:nth-of-type(8) {
+    background-color: #ff8000;
+}
+
+.slides input[type="radio"]:nth-of-type(9):checked~.controls-visible label:nth-of-type(9) {
+    background-color: #ffcc00;
+}
+
+.slides input[type="radio"]:nth-of-type(10):checked~.controls-visible label:nth-of-type(10) {
+    background-color: #ff8000;
+}
+
+/* 根据选中的 radio 按钮，切换轮播图的显示位置 */
+.slides input[type="radio"]:nth-of-type(1):checked~.slide {
+    transform: translatex(0%);
+    /* 第一个图片显示 */
+}
+
+.slides input[type="radio"]:nth-of-type(2):checked~.slide {
+    transform: translatex(-100%);
+    /* 第二个图片显示 */
+}
+
+.slides input[type="radio"]:nth-of-type(3):checked~.slide {
+    transform: translatex(-200%);
+    /* 第三个图片显示 */
+}
+
+.slides input[type="radio"]:nth-of-type(4):checked~.slide {
+    transform: translatex(-300%);
+    /* 第四个图片显示 */
+}
+
+.slides input[type="radio"]:nth-of-type(5):checked~.slide {
+    transform: translatex(-400%);
+    /* 第五个图片显示 */
+}
+
+.slides input[type="radio"]:nth-of-type(6):checked~.slide {
+    transform: translatex(-500%);
+    /* 第六个图片显示 */
+}
+
+.slides input[type="radio"]:nth-of-type(7):checked~.slide {
+    transform: translatex(-600%);
+    /* 第七个图片显示 */
+}
+
+.slides input[type="radio"]:nth-of-type(8):checked~.slide {
+    transform: translatex(-700%);
+    /* 第八个图片显示 */
+}
+
+.slides input[type="radio"]:nth-of-type(9):checked~.slide {
+    transform: translatex(-800%);
+    /* 第九个图片显示 */
+}
+
+.slides input[type="radio"]:nth-of-type(10):checked~.slide {
+    transform: translatex(-900%);
+    /* 第十个图片显示 */
+}
+
+/* 导航按钮（上一张和下一张）的样式 */
+.navigator {
+    position: absolute;
+    top: 50%;
+    /* 垂直居中 */
+    transform: translatey(-50%);
+    /* 精确垂直居中 */
+    width: 100%;
+    z-index: 100;
+    padding: 0 20px;
+    /* 左右间距 */
+    display: flex;
+    /* 水平排列 */
+    justify-content: space-between;
+    /* 两边对齐 */
+    box-sizing: border-box;
+    display: none;
+    /* 默认隐藏导航按钮 */
+}
+
+/* 导航按钮字体样式 */
+.navigator i {
+    font-size: 50px;
+    color: #333333;
+    /* 颜色 */
+}
+
 /* blog */
 #blog {
     padding: 50px 20px;
@@ -182,7 +534,7 @@ nav a:hover {
     /* 设置作品集区域的背景色 */
     text-align: center;
     /* 使作品集内容居中对齐 */
-    flex-direction: column; 
+    flex-direction: column;
     /* 垂直排列子元素 */
     align-items: center;
     /* 水平居中对齐子元素 */
@@ -223,11 +575,11 @@ nav a:hover {
     /* 使作品集内容居中对齐 */
     background-image: url('../image/white.avif');
     /* 设置背景图片 */
-    background-size: cover;  
+    background-size: cover;
     /* 背景图按比例缩放覆盖整个元素 */
-    background-position: center;  
+    background-position: center;
     /* 背景图居中 */
-    background-attachment: fixed;  
+    background-attachment: fixed;
     /* 背景图固定 */
     margin: auto;
     top: 0;
@@ -271,11 +623,11 @@ nav a:hover {
     /* 使作品集内容居中对齐 */
     background-image: url('../image/xbox.avif');
     /* 设置背景图片 */
-    background-size: cover;  
+    background-size: cover;
     /* 背景图按比例缩放覆盖整个元素 */
-    background-position: center;  
+    background-position: center;
     /* 背景图居中 */
-    background-attachment: fixed;  
+    background-attachment: fixed;
     /* 背景图固定 */
 }
 
@@ -342,11 +694,11 @@ nav a:hover {
     /* 使作品集内容居中对齐 */
     background-image: url('../image/tokyo.avif');
     /* 设置背景图片 */
-    background-size: cover;  
+    background-size: cover;
     /* 背景图按比例缩放覆盖整个元素 */
-    background-position: center;  
+    background-position: center;
     /* 背景图居中 */
-    background-attachment: fixed;  
+    background-attachment: fixed;
     /* 背景图固定 */
 }
 
@@ -438,11 +790,11 @@ nav a:hover {
     /* 使作品集内容居中对齐 */
     background-image: url('../image/link.avif');
     /* 设置背景图片 */
-    background-size: cover;  
+    background-size: cover;
     /* 背景图按比例缩放覆盖整个元素 */
-    background-position: center;  
+    background-position: center;
     /* 背景图居中 */
-    background-attachment: fixed;  
+    background-attachment: fixed;
     /* 背景图固定 */
 }
 
@@ -479,7 +831,7 @@ nav a:hover {
     /* 设置作品项的宽度 */
     position: relative;
     /* 使父容器相对定位 */
-    margin-right: 20px; 
+    margin-right: 20px;
     /* 右侧间距 */
 }
 
@@ -500,39 +852,80 @@ nav a:hover {
     /* 阴影效果 */
 }
 
+.portfolio-item2 img {
+    width: 80%;
+    /* 图片宽度占满父容器 */
+    height: auto;
+    /* 保持图片的原始比例 */
+    transition: transform 0.2s ease;
+    /* 添加平滑的缩放效果 */
+    object-fit: cover;
+    /* 确保图片覆盖容器，不拉伸 */
+    border-radius: 10px;
+    /* 给图片添加圆角 */
+    transition: transform 0.3s ease, clip-path 0.3s ease;
+    /* 平滑的过渡效果 */
+    box-shadow: 0px 0px 10px rgba(0.5, 0.5, 0.3, 0.3);
+    /* 阴影效果 */
+    margin-bottom: 20px;
+    /* 设置第div底部的间距 */
+}
+
+.portfolio-item2 h3 {
+    font-size: 30px;
+    /* 设置标题的字体大小 */
+    color: #505050;
+    /* 设置描述文本的颜色 */
+    margin-bottom: 20px;
+    /* 设置作品集标题的下边距 */
+}
+
 .portfolio-item:hover img {
     transform: scale(1.1);
     /* 鼠标悬停时图片放大 */
-    border: 2px solid transparent; 
+    border: 2px solid transparent;
     /* 描边大小 */
     animation: border-color-cycle 3s infinite linear;
     /* 颜色循环时间 */
 }
 
 /* 颜色循环设置 */
- @keyframes border-color-cycle {
-   0% {
-    border-color: #ff0000; /* 红 */
-   }
-   15% {
-    border-color: #ff7f00; /* 橙 */
-   }
-   30% {
-    border-color: #00ff00; /* 绿 */
-   }
-   45% {
-    border-color: #0000ff; /* 蓝 */
-   }
-   60% {
-    border-color: #ffff00; /* 黄 */
-   }
-   85% {
-    border-color: #8b00ff; /* 紫 */
-   }
-   100% {
-    border-color: #ff0000; /* 回到红 */
-   }
- }
+@keyframes border-color-cycle {
+    0% {
+        border-color: #ff0000;
+        /* 红 */
+    }
+
+    15% {
+        border-color: #ff7f00;
+        /* 橙 */
+    }
+
+    30% {
+        border-color: #00ff00;
+        /* 绿 */
+    }
+
+    45% {
+        border-color: #0000ff;
+        /* 蓝 */
+    }
+
+    60% {
+        border-color: #ffff00;
+        /* 黄 */
+    }
+
+    85% {
+        border-color: #8b00ff;
+        /* 紫 */
+    }
+
+    100% {
+        border-color: #ff0000;
+        /* 回到红 */
+    }
+}
 
 .portfolio-item h3 {
     margin-top: 10px;
