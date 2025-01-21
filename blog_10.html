@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMD R7 8700G</title>
+    <link rel="icon" href="images/q.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- 1nd DIV: Hero Section -->
+    <div id="hero">
+        <div class="hero-content">
+            <img src="images/q.svg" alt="HOME" width="100%" height="100%">
+            <h1>QIUYUEN.com</h1>
+            <p class="welcome-text">WELCOME ようこそ 儂好</p>
+            <nav>
+                <a href="https://www.qiuyuen.com/">HOME</a>
+                <a href="https://www.qiuyuen.com/#blog">BLOG</a>
+                <a href="https://www.qiuyuen.com/#design">DESIGN</a>
+                <a href="https://www.qiuyuen.com/#game">GAME</a>
+                <a href="https://www.qiuyuen.com/#ai">AI</a>
+                <a href="https://www.qiuyuen.com/#music">MUSIC</a>
+                <a href="https://www.qiuyuen.com/#contact">CONTACT</a>
+            </nav>
+        </div>
+    </div>
+
+    <!-- 2nd DIV: blog Section -->
+    <div id="blog" class="portfolio-item2">
+        <h3>内置NPU</h3>
+        <p>首发入手了两颗AMD R7 8700G，集成了16TPOS算力的AI NPU和比肩GTX1650的780M核显。</p>
+        <p>可以预见，集成AI将会是未来CPU的主流发展趋势。</p>
+        <img src="images/8700g_1.avif" alt="blog">
+        <img src="images/8700g_2.avif" alt="blog">
+        <img src="images/8700g_3.avif" alt="blog">
+    </div>
+
+    <!--10nd DIV: footer Sectionn -->
+    <div id="footer">
+        <p>Copyright © 2001-2025 QIUYUEN.COM All rights reserved.</p>
+    </div>
+
+    <script>
+        const hero = document.getElementById('hero');
+        window.addEventListener('scroll', () => {
+            const scrollOffset = window.scrollY;
+            hero.style.backgroundPositionY = `${scrollOffset * 0.6}px`;
+        });
+    </script>
+
+</body>
+
+</html>

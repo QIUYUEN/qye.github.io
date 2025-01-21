@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOG</title>
+    <link rel="icon" href="images/q.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- 1nd DIV: Hero Section -->
+    <div id="hero">
+        <div class="hero-content">
+            <img src="images/q.svg" alt="HOME" width="100%" height="100%">
+            <h1>QIUYUEN.com</h1>
+            <p class="welcome-text">WELCOME ようこそ 儂好</p>
+            <nav>
+                <a href="https://www.qiuyuen.com/">HOME</a>
+                <a href="#blog">BLOG</a>
+                <a href="https://www.qiuyuen.com/#design">DESIGN</a>
+                <a href="https://www.qiuyuen.com/#game">GAME</a>
+                <a href="https://www.qiuyuen.com/#ai">AI</a>
+                <a href="https://www.qiuyuen.com/#music">MUSIC</a>
+                <a href="https://www.qiuyuen.com/#contact">CONTACT</a>
+            </nav>
+        </div>
+    </div>
+
+    <!-- 2nd DIV: blog Section -->
+    <div id="blog">
+        <h2>BLOG</h2>
+        <p>生活，美食，摄影和旅行</p>
+        <div class="portfolio-item">
+            <a href="blog_12.html"><img src="images/sushi.avif" alt="blog"></a>
+            <h3>手作寿司</h3>
+            <p>日料仙人警告</p>
+        </div>
+        <div class="portfolio-item">
+            <a href="blog_11.html"><img src="images/guangzhou.avif" alt="blog"></a>
+            <h3>得闲出嚟饮茶</h3>
+            <p>美食商贸之都</p>
+        </div>
+        <div class="portfolio-item">
+            <a href="blog_10.html"><img src="images/r78700g.avif" alt="blog"></a>
+            <h3>内置NPU</h3>
+            <p>AI硬件普及</p>
+        </div>
+        <div class="portfolio-item">
+            <a href="blog_9.html"><img src="images/xiamen.avif" alt="blog"></a>
+            <h3>冬季的厦门</h3>
+            <p>鼓浪屿和八市</p>
+        </div>
+        <div class="portfolio-item">
+            <a href="blog_8.html"><img src="images/chongqing.avif" alt="blog"></a>
+            <h3>重庆物语</h3>
+            <p>不可思议山城</p>
+        </div>
+        <div class="portfolio-item">
+            <a href="blog_7.html"><img src="images/sakura.avif" alt="blog"></a>
+            <h3>樱花盛开</h3>
+            <p>三四月苏州河</p>
+        </div>
+        <div class="portfolio-item">
+            <a href="blog_6.html"><img src="images/qsz.avif" alt="blog"></a>
+            <h3>假日摄影</h3>
+            <p>魔都精彩瞬间</p>
+        </div>
+        <div class="portfolio-item">
+            <a href="blog_5.html"><img src="images/cat.avif" alt="blog"></a>
+            <h3>猫</h3>
+            <p>楼下的野猫</p>
+        </div>
+        <div class="portfolio-item">
+            <a href="blog_4.html"><img src="images/covid19.avif" alt="blog"></a>
+            <h3>疫情众生相</h3>
+            <p>保持独立思考</p>
+        </div>
+        <div class="portfolio-item">
+            <a href="blog_3.html"><img src="images/japan2.avif" alt="blog"></a>
+            <h3>日本关西行</h3>
+            <p>大阪京都之旅</p>
+        </div>
+        <div class="portfolio-item">
+            <a href="blog_2.html"><img src="images/japan1.avif" alt="blog"></a>
+            <h3>你好，日本</h3>
+            <p>盛世公主号</p>
+        </div>
+        <div class="portfolio-item">
+            <a href="blog_1.html"><img src="images/disney.avif" alt="blog"></a>
+            <h3>上海迪士尼</h3>
+            <p>童话世界</p>
+        </div>
+    </div>
+
+    <!--10nd DIV: footer Sectionn -->
+    <div id="footer">
+        <p>Copyright © 2001-2025 QIUYUEN.COM All rights reserved.</p>
+    </div>
+
+    <script>
+        const hero = document.getElementById('hero');
+        window.addEventListener('scroll', () => {
+            const scrollOffset = window.scrollY;
+            hero.style.backgroundPositionY = `${scrollOffset * 0.6}px`;
+        });
+    </script>
+
+</body>
+
+</html>
