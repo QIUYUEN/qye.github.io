@@ -441,7 +441,7 @@ input[type="radio"] {
 }
 
 .slides input[type="radio"]:nth-of-type(9):checked~.controls-visible label:nth-of-type(9) {
-    background-color: #ffcc00;
+    background-color: #ff8000;
 }
 
 .slides input[type="radio"]:nth-of-type(10):checked~.controls-visible label:nth-of-type(10) {
