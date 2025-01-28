@@ -832,6 +832,21 @@ input[type="radio"] {
     /* 设置作品集标题的字体大小 */
 }
 
+#qsz {
+    width: 100%;
+    /* 图片宽度 */
+    height: auto;
+    /* 保持图片的原始比例 */
+}
+
+#qsz img {
+    width: 50%;
+    /* 图片宽度 */
+    height: auto;
+    /* 保持图片的原始比例 */
+    border-radius: 15px; 
+}
+
 /* 每个作品项 */
 .portfolio-item {
     display: inline-block;
