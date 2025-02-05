@@ -108,7 +108,11 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #FF8000;
+    color: #7e5200;
+    /* 鼠标悬停时，文字颜色 */
+    font-weight: bold;
+    /* 鼠标悬停时，文字加粗 */
+    background-color: #ffa500;
     /* 鼠标悬停时改变背景色 */
     transform: scale(1.3);
     /* 鼠标悬停时放大按钮 */
@@ -991,7 +995,7 @@ input[type="radio"] {
 
 /* 4th DIV: Footer Section */
 #footer {
-    background-color: #333;
+    background-color: #333333;
     /* 设置页脚的背景颜色 */
     color: white;
     /* 设置页脚文本颜色为白色 */
@@ -1097,11 +1101,11 @@ input[type="radio"] {
     transform: translateY(5px);
     /* 鼠标悬停时，按钮稍微向下移动，产生点击效果 */
     color: #ffffff;
-    /* 鼠标悬停时，文字颜色变为白色 */
-    background-color: #FF8000;
-    /* 鼠标悬停时，按钮背景颜色变为蓝色 */
+    /* 鼠标悬停时，文字颜色 */
+    background-color: #ffa500;
+    /* 鼠标悬停时，按钮背景颜色 */
     border-color: #ffffff;
-    /* 鼠标悬停时，按钮边框颜色变为白色 */
+    /* 鼠标悬停时，按钮边框颜色 */
 }
 
 /* CD设置图片旋转效果 */
