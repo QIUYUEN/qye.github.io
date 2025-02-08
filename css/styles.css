@@ -1005,6 +1005,13 @@ input[type="radio"] {
     /* 设置页脚的内边距 */
 }
 
+#footer img {
+    width: 10%;
+    /* 图片宽度 */
+    height: auto;
+    /* 图片高度 */
+}
+
 /* Media Queries for Responsiveness */
 
 /* 屏幕宽度小于768px时，调整样式以适应平板 */
