@@ -14,6 +14,13 @@ body {
     text-align: center;
 }
 
+.hr {
+    border: none;
+    border-top: 1px solid gray;
+    width: 50%;
+    margin: 20px auto;
+}
+
 /* 1st DIV: Hero Section */
 #hero {
     position: relative;
@@ -53,6 +60,11 @@ body {
 #hero h1 {
     font-size: 35px;
     /* 设置主标题的字体大小 */
+}
+
+#hero img {
+    width: 50%;
+    height: auto;
 }
 
 #hero .welcome-text {
