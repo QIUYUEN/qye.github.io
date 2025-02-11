@@ -1007,14 +1007,16 @@ input[type="radio"] {
 
 /* 4th DIV: Footer Section */
 #footer {
+    width: 100%;
+    /* 宽度 */
+    height: 250px;
+    /* 高度 */
     background-color: #333333;
     /* 设置页脚的背景颜色 */
     color: white;
     /* 设置页脚文本颜色为白色 */
     text-align: center;
     /* 设置页脚文本居中对齐 */
-    padding: 20px;
-    /* 设置页脚的内边距 */
 }
 
 #footer img {
@@ -1022,7 +1024,11 @@ input[type="radio"] {
     /* 图片宽度 */
     height: auto;
     /* 图片高度 */
-    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+#footer p {
+    margin-top: 10px;
 }
 
 /* Media Queries for Responsiveness */
