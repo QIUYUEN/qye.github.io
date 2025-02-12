@@ -1009,7 +1009,7 @@ input[type="radio"] {
 #footer {
     width: 100%;
     /* 宽度 */
-    height: 250px;
+    height: auto;
     /* 高度 */
     background-color: #333333;
     /* 设置页脚的背景颜色 */
@@ -1028,6 +1028,7 @@ input[type="radio"] {
 }
 
 #footer p {
+    font-size: 16px;
     margin-top: 10px;
 }
 
