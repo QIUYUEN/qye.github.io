@@ -242,7 +242,7 @@ nav a:hover {
 .liststyle {
     display: inline-block;
     /* 水平排列作品项 */
-    width: 18%;
+    width: 30%
     /* 设置作品项的宽度 */
     margin: 10px;
     /* 设置作品项之间的间距 */
