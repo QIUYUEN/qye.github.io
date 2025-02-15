@@ -267,7 +267,16 @@ nav a:hover {
     /* 阴影效果 */
 }
 
-.imagestyle img {
+.portfolio-item:hover img {
+    transform: scale(1.1);
+    /* 鼠标悬停时图片放大 */
+    border: 2px solid transparent;
+    /* 描边大小 */
+    animation: border-color-cycle 3s infinite linear;
+    /* 颜色循环时间 */
+}
+
+.contentstyle img {
     width: 80%;
     /* 图片宽度占满父容器 */
     height: auto;
@@ -286,22 +295,13 @@ nav a:hover {
     /* 设置第div底部的间距 */
 }
 
-.imagestyle h3 {
+.contentstyle h3 {
     font-size: 30px;
     /* 设置标题的字体大小 */
     color: #505050;
     /* 设置描述文本的颜色 */
     margin-bottom: 20px;
     /* 设置作品集标题的下边距 */
-}
-
-.portfolio-item:hover img {
-    transform: scale(1.1);
-    /* 鼠标悬停时图片放大 */
-    border: 2px solid transparent;
-    /* 描边大小 */
-    animation: border-color-cycle 3s infinite linear;
-    /* 颜色循环时间 */
 }
 
 /* 颜色循环设置 */
