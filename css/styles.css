@@ -1117,8 +1117,8 @@ img {
 
 /* Media Queries for Responsiveness */
 
-/* 屏幕宽度小于1000px时，调整样式以适应平板 */
-@media (max-width: 1000px) {
+/* 屏幕宽度小于1500px时，调整样式以适应平板 */
+@media (max-width: 1500px) {
     #hero h1 {
         font-size: 2em;
         /* 调整标题的字体大小 */
@@ -1145,8 +1145,8 @@ img {
     }
 }
 
-/* 屏幕宽度小于480px时，调整样式以适应手机 */
-@media (max-width: 480px) {
+/* 屏幕宽度小于1500px时，调整样式以适应手机 */
+@media (max-width: 1500px) {
     .liststyle {
         width: 100%;
         /* 让作品项在手机上占满全宽 */
