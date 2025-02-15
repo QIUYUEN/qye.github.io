@@ -214,7 +214,7 @@ nav a:hover {
 }
 
 .design img {
-    width: 100%;
+    width: 90%;
     /* 图片宽度占满父容器 */
     height: auto;
     /* 保持图片的原始比例 */
@@ -231,27 +231,31 @@ nav a:hover {
 
 .design p {
     color: #505050;
-    /* 文字颜色为灰色 */
+    /* 文字颜色 */
     font-size: 15px;
     /* 设置作品集标题的字体大小 */
     margin-bottom: 15px;
     /* 设置作品集标题的下边距 */
 }
 
-/* 每个作品项 */
-.contentliststyle {
+/* 列表样式 */
+.liststyle {
     display: inline-block;
     /* 水平排列作品项 */
     width: 18%;
     /* 设置作品项的宽度 */
+    margin: 10px;
+    /* 设置作品项之间的间距 */
     position: relative;
     /* 使父容器相对定位 */
-    margin-right: 20px;
-    /* 右侧间距 */
+    cursor: pointer;
+    /* 鼠标悬停时为手形 */
+    align-items: center; 
+    /* 水平居中对齐子元素 */
 }
 
-.contentliststyle img {
-    width: 100%;
+.liststyle img {
+    width: 80%;
     /* 图片宽度占满父容器 */
     height: auto;
     /* 保持图片的原始比例 */
@@ -267,42 +271,32 @@ nav a:hover {
     /* 阴影效果 */
 }
 
-.contentliststyle:hover img {
+.liststyle:hover img {
     transform: scale(1.1);
     /* 鼠标悬停时图片放大 */
-    border: 2px solid transparent;
+    border: 2px solid transparent; 
     /* 描边大小 */
     animation: border-color-cycle 3s infinite linear;
     /* 颜色循环时间 */
 }
 
-.contentliststyle h3 {
-    font-size: 20px;
+.liststyle h3 {
+    margin-top: 10px;
+    /* 设置标题与图片的上边距 */
+    font-size: 1.2em;
     /* 设置标题的字体大小 */
     color: #505050;
     /* 设置描述文本的颜色 */
-    margin-bottom: 10px;
-    /* 设置作品集标题的下边距 */
 }
 
-.contentstyle {
-    width: 100%;
-    /* 图片宽度占满父容器 */
-    height: auto;
-    /* 保持图片的原始比例 */
-}
-
-.contentstyle h3 {
-    font-size: 30px;
-    /* 设置标题的字体大小 */
-    color: #505050;
+.liststyle p {
+    font-size: 0.9em;
+    /* 设置描述文本的字体大小 */
+    color: #666;
     /* 设置描述文本的颜色 */
-    margin-top: 20px; 
-    /* 设置与上一个元素的距离 */
-    margin-bottom: 10px;
-    /* 设置作品集标题的下边距 */
 }
 
+/* 内容样式 */
 .contentstyle img {
     width: 80%;
     /* 图片宽度占满父容器 */
@@ -320,6 +314,15 @@ nav a:hover {
     /* 阴影效果 */
     margin-bottom: 20px;
     /* 设置第div底部的间距 */
+}
+
+.contentstyle h3 {
+    font-size: 30px;
+    /* 设置标题的字体大小 */
+    color: #505050;
+    /* 设置描述文本的颜色 */
+    margin-bottom: 20px;
+    /* 设置作品集标题的下边距 */
 }
 
 /* 颜色循环设置 */
@@ -358,22 +361,6 @@ nav a:hover {
         border-color: #ff0000;
         /* 回到红 */
     }
-}
-
-.portfolio-item h3 {
-    margin-top: 10px;
-    /* 设置标题与图片的上边距 */
-    font-size: 1.2em;
-    /* 设置标题的字体大小 */
-    color: #505050;
-    /* 设置描述文本的颜色 */
-}
-
-.portfolio-item p {
-    font-size: 0.9em;
-    /* 设置描述文本的字体大小 */
-    color: #666;
-    /* 设置描述文本的颜色 */
 }
 
 /* button */
@@ -1142,8 +1129,8 @@ img {
         /* 调整欢迎文本的字体大小 */
     }
 
-    .portfolio-item {
-        width: 48%;
+    .liststyle {
+        width: 70%;
         /* 调整作品项的宽度，使其在小屏幕上适应 */
     }
 
@@ -1160,7 +1147,7 @@ img {
 
 /* 屏幕宽度小于480px时，调整样式以适应手机 */
 @media (max-width: 480px) {
-    .portfolio-item {
+    .liststyle {
         width: 100%;
         /* 让作品项在手机上占满全宽 */
     }
