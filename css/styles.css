@@ -1117,8 +1117,8 @@ img {
 
 /* Media Queries for Responsiveness */
 
-/* 屏幕宽度小于768px时，调整样式以适应平板 */
-@media (max-width: 768px) {
+/* 屏幕宽度小于1000px时，调整样式以适应平板 */
+@media (max-width: 1000px) {
     #hero h1 {
         font-size: 2em;
         /* 调整标题的字体大小 */
@@ -1130,7 +1130,7 @@ img {
     }
 
     .liststyle {
-        width: 70%;
+        width: 100;
         /* 调整作品项的宽度，使其在小屏幕上适应 */
     }
 
