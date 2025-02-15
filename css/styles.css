@@ -286,10 +286,21 @@ nav a:hover {
 }
 
 .contentstyle {
-    width: 80%;
+    width: 100%;
     /* 图片宽度占满父容器 */
     height: auto;
     /* 保持图片的原始比例 */
+}
+
+.contentstyle h3 {
+    font-size: 30px;
+    /* 设置标题的字体大小 */
+    color: #505050;
+    /* 设置描述文本的颜色 */
+    margin-top: 20px; 
+    /* 设置与上一个元素的距离 */
+    margin-bottom: 10px;
+    /* 设置作品集标题的下边距 */
 }
 
 .contentstyle img {
