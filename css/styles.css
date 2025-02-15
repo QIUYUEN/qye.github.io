@@ -242,7 +242,7 @@ nav a:hover {
 .liststyle {
     display: inline-block;
     /* 水平排列作品项 */
-    width: 30%
+    width: 18%;
     /* 设置作品项的宽度 */
     margin: 10px;
     /* 设置作品项之间的间距 */
@@ -283,7 +283,7 @@ nav a:hover {
 .liststyle h3 {
     margin-top: 10px;
     /* 设置标题与图片的上边距 */
-    font-size: 20px;
+    font-size: 1.2em;
     /* 设置标题的字体大小 */
     color: #505050;
     /* 设置描述文本的颜色 */
@@ -1117,8 +1117,8 @@ img {
 
 /* Media Queries for Responsiveness */
 
-/* 屏幕宽度小于1500px时，调整样式以适应平板 */
-@media (max-width: 1500px) {
+/* 屏幕宽度小于1000px时，调整样式以适应平板 */
+@media (max-width: 1000px) {
     #hero h1 {
         font-size: 2em;
         /* 调整标题的字体大小 */
@@ -1130,7 +1130,7 @@ img {
     }
 
     .liststyle {
-        width: 100%；
+        width: 70%;
         /* 调整作品项的宽度，使其在小屏幕上适应 */
     }
 
@@ -1145,8 +1145,8 @@ img {
     }
 }
 
-/* 屏幕宽度小于1500px时，调整样式以适应手机 */
-@media (max-width: 1500px) {
+/* 屏幕宽度小于768px时，调整样式以适应手机 */
+@media (max-width: 768px) {
     .liststyle {
         width: 100%;
         /* 让作品项在手机上占满全宽 */
