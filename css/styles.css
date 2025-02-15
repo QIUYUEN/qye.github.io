@@ -1066,28 +1066,6 @@ img {
     border-radius: 15px; 
 }
 
-/* 3rd DIV: Image Section */
-#image-section {
-    padding: 50px 20px;
-    /* 设置图片区域的内边距 */
-    text-align: center;
-    /* 设置文本居中对齐 */
-}
-
-#image-section img {
-    max-width: 100%;
-    /* 设置图片宽度最大为100% */
-    height: auto;
-    /* 保持图片的原始比例 */
-}
-
-#image-section h3 {
-    font-size: 2em;
-    /* 设置图片标题的字体大小 */
-    margin-top: 20px;
-    /* 设置图片标题的上边距 */
-}
-
 /* 10th DIV: footer Sectionn */
 .footer {
     width: 100%;
