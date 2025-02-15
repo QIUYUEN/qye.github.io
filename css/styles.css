@@ -239,7 +239,7 @@ nav a:hover {
 }
 
 /* 每个作品项 */
-.portfolio-item {
+.contentliststyle {
     display: inline-block;
     /* 水平排列作品项 */
     width: 18%;
@@ -250,7 +250,7 @@ nav a:hover {
     /* 右侧间距 */
 }
 
-.portfolio-item img {
+.contentliststyle img {
     width: 100%;
     /* 图片宽度占满父容器 */
     height: auto;
@@ -267,13 +267,22 @@ nav a:hover {
     /* 阴影效果 */
 }
 
-.portfolio-item:hover img {
+.contentliststyle:hover img {
     transform: scale(1.1);
     /* 鼠标悬停时图片放大 */
     border: 2px solid transparent;
     /* 描边大小 */
     animation: border-color-cycle 3s infinite linear;
     /* 颜色循环时间 */
+}
+
+.contentliststyle h3 {
+    font-size: 20px;
+    /* 设置标题的字体大小 */
+    color: #505050;
+    /* 设置描述文本的颜色 */
+    margin-bottom: 10px;
+    /* 设置作品集标题的下边距 */
 }
 
 .contentstyle img {
@@ -293,15 +302,6 @@ nav a:hover {
     /* 阴影效果 */
     margin-bottom: 20px;
     /* 设置第div底部的间距 */
-}
-
-.contentstyle h3 {
-    font-size: 30px;
-    /* 设置标题的字体大小 */
-    color: #505050;
-    /* 设置描述文本的颜色 */
-    margin-bottom: 20px;
-    /* 设置作品集标题的下边距 */
 }
 
 /* 颜色循环设置 */
