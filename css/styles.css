@@ -285,6 +285,13 @@ nav a:hover {
     /* 设置作品集标题的下边距 */
 }
 
+.contentstyle {
+    width: 80%;
+    /* 图片宽度占满父容器 */
+    height: auto;
+    /* 保持图片的原始比例 */
+}
+
 .contentstyle img {
     width: 80%;
     /* 图片宽度占满父容器 */
