@@ -250,7 +250,7 @@ nav a:hover {
     /* 使父容器相对定位 */
     cursor: pointer;
     /* 鼠标悬停时为手形 */
-    align-items: center; 
+    align-items: center;
     /* 水平居中对齐子元素 */
 }
 
@@ -274,7 +274,7 @@ nav a:hover {
 .liststyle:hover img {
     transform: scale(1.1);
     /* 鼠标悬停时图片放大 */
-    border: 2px solid transparent; 
+    border: 2px solid transparent;
     /* 描边大小 */
     animation: border-color-cycle 3s infinite linear;
     /* 颜色循环时间 */
@@ -1063,7 +1063,7 @@ img {
     /* 图片宽度 */
     height: auto;
     /* 保持图片的原始比例 */
-    border-radius: 15px; 
+    border-radius: 15px;
 }
 
 /* 10th DIV: footer Sectionn */
