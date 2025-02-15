@@ -267,7 +267,7 @@ nav a:hover {
     /* 阴影效果 */
 }
 
-.portfolio-item2 img {
+.imagestyle img {
     width: 80%;
     /* 图片宽度占满父容器 */
     height: auto;
@@ -286,7 +286,7 @@ nav a:hover {
     /* 设置第div底部的间距 */
 }
 
-.portfolio-item2 h3 {
+.imagestyle h3 {
     font-size: 30px;
     /* 设置标题的字体大小 */
     color: #505050;
