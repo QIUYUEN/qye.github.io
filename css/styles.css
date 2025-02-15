@@ -283,7 +283,7 @@ nav a:hover {
 .liststyle h3 {
     margin-top: 10px;
     /* 设置标题与图片的上边距 */
-    font-size: 1.2em;
+    font-size: 20px;
     /* 设置标题的字体大小 */
     color: #505050;
     /* 设置描述文本的颜色 */
