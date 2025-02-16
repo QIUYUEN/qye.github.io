@@ -1028,9 +1028,9 @@ img {
 
 .link img {
     width: 35px;
-    /* 设置作品项的宽度 */
-    margin: 15px;
-    /* 设置作品项之间的间距 */
+    /* 设置宽度 */
+    margin: 5px;
+    /* 设置间距 */
 }
 
 .linkbox {
