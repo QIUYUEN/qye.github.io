@@ -244,7 +244,7 @@ nav a:hover {
     /* 水平排列作品项 */
     width: 18%;
     /* 设置作品项的宽度 */
-    margin: 10px;
+    margin: 5px;
     /* 设置作品项之间的间距 */
     position: relative;
     /* 使父容器相对定位 */
