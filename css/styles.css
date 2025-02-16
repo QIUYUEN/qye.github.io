@@ -1027,8 +1027,6 @@ img {
 }
 
 .link img {
-    display: inline-block;
-    /* 水平排列作品项 */
     width: 35px;
     /* 设置作品项的宽度 */
     margin: 15px;
@@ -1037,7 +1035,6 @@ img {
 
 .linkbox {
     display: flex; 
-    /* 激活flexbox布局 */
     justify-content: center; 
     /* 水平居中 */
     margin-top: 20px;
