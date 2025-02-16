@@ -1035,6 +1035,23 @@ img {
     /* 设置作品项之间的间距 */
 }
 
+.linkbox {
+    display: flex; 
+    /* 激活flexbox布局 */
+    justify-content: center; 
+    /* 水平居中 */
+    margin-top: 20px;
+}
+
+.linkicon img {
+    transition: transform 0.2s ease; 
+    /* 设定过渡时间和效果 */
+}
+
+.linkicon:hover img {
+    transform: scale(1.5); 
+}
+
 .link h2 {
     color: #b0b0b0;
     /* 文字颜色为灰色 */
