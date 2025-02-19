@@ -541,7 +541,7 @@ li.slide a {
 
 /* 第一个轮播图片的背景颜色 */
 .slide:nth-of-type(1) {
-    background-image: url('../images/run_2.avif');
+    background-image: url('../images/deepseek.avif');
     /* 图片路径 */
     border-radius: 15px;
     /* 设置圆角*/
