@@ -191,7 +191,7 @@ nav a:hover {
 }
 
 /* 3rd DIV:Design Section */
-.design {
+#design {
     padding: 50px 20px;
     /* 设置作品集区域的内边距 */
     background-color: #f4f4f4;
@@ -213,14 +213,14 @@ nav a:hover {
     bottom: 0;
 }
 
-.design img {
+#design img {
     width: 90%;
     /* 图片宽度占满父容器 */
     height: auto;
     /* 保持图片的原始比例 */
 }
 
-.design h2 {
+#design h2 {
     color: #b0b0b0;
     /* 文字颜色为灰色 */
     font-size: 40px;
@@ -229,7 +229,7 @@ nav a:hover {
     /* 设置作品集标题的下边距 */
 }
 
-.design p {
+#design p {
     color: #505050;
     /* 文字颜色 */
     font-size: 15px;
@@ -415,7 +415,7 @@ nav a:hover {
 }
 
 /* 4th DIV: Blog Section */
-.blog {
+#blog {
     padding: 50px 20px;
     /* 设置作品集区域的内边距 */
     background-color: #f4f4f4;
@@ -428,14 +428,14 @@ nav a:hover {
     /* 水平居中对齐子元素 */
 }
 
-.blog img {
+#blog img {
     width: 100%;
     /* 图片宽度占满父容器 */
     height: auto;
     /* 保持图片的原始比例 */
 }
 
-.blog h2 {
+#blog h2 {
     color: #b0b0b0;
     /* 文字颜色为灰色 */
     font-size: 40px;
@@ -444,7 +444,7 @@ nav a:hover {
     /* 设置作品集标题的下边距 */
 }
 
-.blog p {
+#blog p {
     color: #505050;
     /* 文字颜色为灰色 */
     font-size: 15px;
@@ -815,7 +815,7 @@ input[type="radio"] {
 }
 
 /* 5th DIV:game Sectionn */
-.game {
+#game {
     padding: 50px 20px;
     /* 设置作品集区域的内边距 */
     background-color: #ffffff;
@@ -832,14 +832,14 @@ input[type="radio"] {
     /* 背景图固定 */
 }
 
-.game img {
+#game img {
     width: 100%;
     /* 图片宽度占满父容器 */
     height: auto;
     /* 保持图片的原始比例 */
 }
 
-.game h2 {
+#game h2 {
     color: #b0b0b0;
     /* 文字颜色为灰色 */
     font-size: 40px;
@@ -848,7 +848,7 @@ input[type="radio"] {
     /* 设置作品集标题的下边距 */
 }
 
-.game p {
+#game p {
     color: #505050;
     /* 文字颜色为灰色 */
     font-size: 15px;
@@ -858,7 +858,7 @@ input[type="radio"] {
 }
 
 /* 6th DIV:ai Sectionn */
-.ai {
+#ai {
     padding: 50px 20px;
     /* 设置作品集区域的内边距 */
     background-color: #ffffff;
@@ -867,7 +867,7 @@ input[type="radio"] {
     /* 使作品集内容居中对齐 */
 }
 
-.ai h2 {
+#ai h2 {
     color: #b0b0b0;
     /* 文字颜色为灰色 */
     font-size: 40px;
@@ -876,7 +876,7 @@ input[type="radio"] {
     /* 设置作品集标题的下边距 */
 }
 
-.ai p {
+#ai p {
     color: #505050;
     /* 文字颜色为灰色 */
     font-size: 15px;
@@ -886,7 +886,7 @@ input[type="radio"] {
 }
 
 /* 7th DIV:music Sectionn */
-.music {
+#music {
     padding: 50px 20px;
     /* 设置作品集区域的内边距 */
     background-color: #f4f4f4;
@@ -903,7 +903,7 @@ input[type="radio"] {
     /* 背景图固定 */
 }
 
-.music img {
+#music img {
     width: 50%;
     /* 图片宽度占满父容器 */
     height: auto;
@@ -912,7 +912,7 @@ input[type="radio"] {
     /* 设置作品集标题的下边距 */
 }
 
-.music h2 {
+#music h2 {
     color: #3d4554;
     /* 文字颜色为白色 */
     font-size: 40px;
@@ -921,7 +921,7 @@ input[type="radio"] {
     /* 设置作品集标题的下边距 */
 }
 
-.music h3 {
+#music h3 {
     color: #3d4554;
     /* 文字颜色为白色 */
     font-size: 20px;
@@ -930,7 +930,7 @@ input[type="radio"] {
     /* 设置作品集标题的下边距 */
 }
 
-.music p {
+#music p {
     color: #3d4554;
     /* 文字颜色为白色 */
     font-size: 15px;
@@ -967,7 +967,7 @@ img {
 }
 
 /* 8th DIV:contact Sectionn */
-.contact {
+#contact {
     padding: 50px 20px;
     /* 设置作品集区域的内边距 */
     background-color: #ffffff;
@@ -976,14 +976,14 @@ img {
     /* 使作品集内容居中对齐 */
 }
 
-.contact img {
+#contact img {
     width: 200px;
     /* 图片宽度 */
     height: auto;
     /* 保持图片的原始比例 */
 }
 
-.contact h2 {
+#contact h2 {
     color: #b0b0b0;
     /* 文字颜色为灰色 */
     font-size: 40px;
@@ -992,14 +992,14 @@ img {
     /* 设置作品集标题的下边距 */
 }
 
-.contact p {
+#contact p {
     color: #505050;
     /* 文字颜色为灰色 */
     font-size: 15px;
     /* 设置作品集标题的字体大小 */
 }
 
-.contact p {
+#contact p {
     color: #505050;
     /* 文字颜色为灰色 */
     font-size: 15px;
@@ -1009,7 +1009,7 @@ img {
 }
 
 /* 9th DIV:link Sectionn */
-.link {
+#link {
     padding: 10px 130px;
     /* 设置作品集区域的内边距 */
     background-color: #f4f4f4;
@@ -1026,11 +1026,29 @@ img {
     /* 背景图固定 */
 }
 
-.link img {
+#link img {
     width: 35px;
     /* 设置宽度 */
     margin: 5px;
     /* 设置间距 */
+}
+
+#link h2 {
+    color: #b0b0b0;
+    /* 文字颜色为灰色 */
+    font-size: 40px;
+    /* 设置作品集标题的字体大小 */
+    margin-bottom: 20px;
+    /* 设置作品集标题的下边距 */
+}
+
+#link p {
+    color: #b0b0b0;
+    /* 文字颜色为灰色 */
+    font-size: 16px;
+    /* 设置作品集标题的字体大小 */
+    margin-bottom: 20px;
+    /* 设置作品集标题的下边距 */
 }
 
 .linkbox {
@@ -1049,30 +1067,14 @@ img {
     transform: scale(1.5); 
 }
 
-.link h2 {
-    color: #b0b0b0;
-    /* 文字颜色为灰色 */
-    font-size: 40px;
-    /* 设置作品集标题的字体大小 */
-    margin-bottom: 20px;
-    /* 设置作品集标题的下边距 */
-}
-
-.link p {
-    color: #b0b0b0;
-    /* 文字颜色为灰色 */
-    font-size: 16px;
-    /* 设置作品集标题的字体大小 */
-}
-
-.qsz {
+#qsz {
     width: 100%;
     /* 图片宽度 */
     height: auto;
     /* 保持图片的原始比例 */
 }
 
-.qsz img {
+#qsz img {
     width: 50%;
     /* 图片宽度 */
     height: auto;
