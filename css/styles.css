@@ -866,7 +866,35 @@ input[type="radio"] {
     /* 设置作品集标题的下边距 */
 }
 
-/* 6th DIV:music Sectionn */
+/* 6th DIV:ai Sectionn */
+#ai {
+    padding: 50px 20px;
+    /* 设置作品集区域的内边距 */
+    background-color: #ffffff;
+    /* 设置作品集区域的背景色 */
+    text-align: center;
+    /* 使作品集内容居中对齐 */
+}
+
+#ai h2 {
+    color: #b0b0b0;
+    /* 文字颜色为灰色 */
+    font-size: 40px;
+    /* 设置作品集标题的字体大小 */
+    margin-bottom: 20px;
+    /* 设置作品集标题的下边距 */
+}
+
+#ai p {
+    color: #505050;
+    /* 文字颜色为灰色 */
+    font-size: 15px;
+    /* 设置作品集标题的字体大小 */
+    margin-bottom: 15px;
+    /* 设置作品集标题的下边距 */
+}
+
+/* 7th DIV:music Sectionn */
 #music {
     padding: 50px 20px;
     /* 设置作品集区域的内边距 */
@@ -947,7 +975,7 @@ img {
     }
 }
 
-/* 7th DIV:contact Sectionn */
+/* 8th DIV:contact Sectionn */
 #contact {
     padding: 50px 20px;
     /* 设置作品集区域的内边距 */
@@ -989,7 +1017,7 @@ img {
     /* 设置作品集标题的下边距 */
 }
 
-/* 8th DIV:link Sectionn */
+/* 9th DIV:link Sectionn */
 #link {
     padding: 10px 130px;
     /* 设置作品集区域的内边距 */
@@ -1063,7 +1091,7 @@ img {
     border-radius: 15px;
 }
 
-/* 9th DIV: footer Sectionn */
+/* 10th DIV: footer Sectionn */
 .footer {
     width: 100%;
     /* 宽度 */
