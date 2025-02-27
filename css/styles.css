@@ -895,7 +895,7 @@ input[type="radio"] {
     /* 设置作品集区域的背景色 */
     text-align: center;
     /* 使作品集内容居中对齐 */
-    background-image: url('../images/tokyo.avif');
+    background-image: url('../images/onepiece.avif');
     /* 设置背景图片 */
     background-size: cover;
     /* 背景图按比例缩放覆盖整个元素 */
@@ -915,7 +915,7 @@ input[type="radio"] {
 }
 
 #music h2 {
-    color: #3d4554;
+    color: #ffffff;
     /* 文字颜色为白色 */
     font-size: 40px;
     /* 设置作品集标题的字体大小 */
@@ -924,7 +924,7 @@ input[type="radio"] {
 }
 
 #music h3 {
-    color: #3d4554;
+    color: #ffffff;
     /* 文字颜色为白色 */
     font-size: 20px;
     /* 设置作品集标题的字体大小 */
@@ -933,7 +933,7 @@ input[type="radio"] {
 }
 
 #music p {
-    color: #3d4554;
+    color: #ffffff;
     /* 文字颜色为白色 */
     font-size: 15px;
     /* 设置作品集标题的字体大小 */
