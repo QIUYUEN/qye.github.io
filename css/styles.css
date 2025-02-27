@@ -23,6 +23,13 @@ body {
     margin: 20px auto;
 }
 
+.musichr {
+    border: none;
+    border-top: 1px solid #fff;
+    width: 50%;
+    margin: 20px auto;
+}
+
 /* 1st DIV: Hero Section */
 #hero {
     position: relative;
