@@ -104,13 +104,13 @@ nav {
 }
 
 nav a {
-    width: 110px;
+    width: 120px;
     /* 设置统一的宽度 */
     height: 40px;
     /* 设置统一的高度 */
     text-decoration: none;
     /* 去除链接下划线 */
-    padding: 12px 24px;
+    padding: 10px 5px;
     /* 为按钮设置统一的内边距 */
     background-color: rgba(255, 255, 255, 0.3);
     /* 按钮背景色为半透明黑色 */
