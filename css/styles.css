@@ -550,7 +550,7 @@ li.slide a {
 
 /* 第一个轮播图片的背景颜色 */
 .slide:nth-of-type(1) {
-    background-image: url('../images/deepseek.avif');
+    background-image: url('../images/apple.avif');
     /* 图片路径 */
     border-radius: 15px;
     /* 设置圆角*/
@@ -560,7 +560,7 @@ li.slide a {
 
 /* 第二个轮播图片的背景颜色，并设置初始位置在容器外 */
 .slide:nth-of-type(2) {
-    background-image: url('../images/guangzhou_26.avif');
+    background-image: url('../images/deepseek.avif');
     /* 图片路径 */
     border-radius: 15px;
     /* 设置圆角*/
@@ -572,7 +572,7 @@ li.slide a {
 
 /* 第三个轮播图片的背景颜色，并设置初始位置在容器外 */
 .slide:nth-of-type(3) {
-    background-image: url('../images/8700g_3.avif');
+    background-image: url('../images/guangzhou_26.avif');
     /* 图片路径 */
     border-radius: 15px;
     /* 设置圆角*/
@@ -584,7 +584,7 @@ li.slide a {
 
 /* 第四个轮播图片的背景颜色 */
 .slide:nth-of-type(4) {
-    background-image: url('../images/xiamen_10.avif');
+    background-image: url('../images/8700g_3.avif');
     /* 图片路径 */
     border-radius: 15px;
     /* 设置圆角*/
@@ -596,7 +596,7 @@ li.slide a {
 
 /* 第五个轮播图片的背景颜色，并设置初始位置在容器外 */
 .slide:nth-of-type(5) {
-    background-image: url('../images/chongqing_19.avif');
+    background-image: url('../images/xiamen.avif');
     /* 图片路径 */
     border-radius: 15px;
     /* 设置圆角*/
@@ -608,7 +608,7 @@ li.slide a {
 
 /* 第六个轮播图片的背景颜色，并设置初始位置在容器外 */
 .slide:nth-of-type(6) {
-    background-image: url('../images/sakura_13.avif');
+    background-image: url('../images/chongqing.avif');
     /* 图片路径 */
     border-radius: 15px;
     /* 设置圆角*/
@@ -620,7 +620,7 @@ li.slide a {
 
 /* 第七个轮播图片的背景颜色 */
 .slide:nth-of-type(7) {
-    background-image: url('../images/qsz.avif');
+    background-image: url('../images/sakura.avif');
     /* 图片路径 */
     border-radius: 15px;
     /* 设置圆角*/
@@ -632,7 +632,7 @@ li.slide a {
 
 /* 第八个轮播图片的背景颜色，并设置初始位置在容器外 */
 .slide:nth-of-type(8) {
-    background-image: url('../images/cat.avif');
+    background-image: url('../images/qsz.avif');
     /* 图片路径 */
     border-radius: 15px;
     /* 设置圆角*/
@@ -644,7 +644,7 @@ li.slide a {
 
 /* 第九个轮播图片的背景颜色，并设置初始位置在容器外 */
 .slide:nth-of-type(9) {
-    background-image: url('../images/covid19.avif');
+    background-image: url('../images/cat.avif');
     /* 图片路径 */
     border-radius: 15px;
     /* 设置圆角*/
