@@ -478,7 +478,7 @@ ul.slides {
     /* 使其成为定位容器 */
     width: 100%;
     /* 轮播图的宽度 */
-    height: 600px;
+    height: 800px;
     /* 轮播图的高度 */
     list-style: none;
     /* 去掉默认的列表样式 */
