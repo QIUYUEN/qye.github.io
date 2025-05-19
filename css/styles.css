@@ -560,7 +560,7 @@ li.slide a {
 
 /* 第二个轮播图片的背景颜色，并设置初始位置在容器外 */
 .slide:nth-of-type(2) {
-    background-image: url('../images/b650_1.avif');
+    background-image: url('../images/b850_1.avif');
     /* 图片路径 */
     border-radius: 15px;
     /* 设置圆角*/
