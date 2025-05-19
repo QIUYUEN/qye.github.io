@@ -867,7 +867,7 @@ input[type="radio"] {
 }
 
 /* 6th DIV:ai Sectionn */
-#ai {
+#code {
     padding: 50px 20px;
     /* 设置作品集区域的内边距 */
     background-color: #ffffff;
@@ -876,7 +876,7 @@ input[type="radio"] {
     /* 使作品集内容居中对齐 */
 }
 
-#ai h2 {
+#code h2 {
     color: #b0b0b0;
     /* 文字颜色为灰色 */
     font-size: 40px;
@@ -885,7 +885,7 @@ input[type="radio"] {
     /* 设置作品集标题的下边距 */
 }
 
-#ai p {
+#code p {
     color: #505050;
     /* 文字颜色为灰色 */
     font-size: 15px;
