@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #222222;
+}
+
+.model {
+    width: 100%;
+    height: 98.5%;
+}
+
+.prompt {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.prompt p {
+    font-size: 10px;
+    color: #ffffff;
+    text-align: center;
+}
