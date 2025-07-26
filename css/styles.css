@@ -34,7 +34,7 @@ body {
 #hero {
     position: relative;
     /* 为了后面定位其他元素 */
-    height: 800px;
+    height: 500px;
     /* 设置高度 */
     background-image: url('../images/background.avif');
     /* 设置背景图片 */
@@ -50,8 +50,6 @@ body {
     /* 垂直居中 */
     text-align: center;
     /* 设置文字居中 */
-    color: white;
-    /* 文字颜色为白色 */
     background-color: #f8f8f8;
     /* 设置背景颜色 */
 }
@@ -64,6 +62,23 @@ body {
     /* 内容垂直排列 */
     align-items: center;
     /* 内容水平居中 */
+}
+
+.hero-content img {
+    width: 150px;
+    height: 150px;
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.8));
+}
+
+.menu {
+    width: 100%;
+    height: auto;
+}
+
+.menu p {
+    font-size: 14px;
+    color: #ffffff;
+    padding-top: 2px; 
 }
 
 .hero h1 {
@@ -1061,19 +1076,19 @@ img {
 }
 
 .linkbox {
-    display: flex; 
-    justify-content: center; 
+    display: flex;
+    justify-content: center;
     /* 水平居中 */
     margin-top: 20px;
 }
 
 .linkicon img {
-    transition: transform 0.2s ease; 
+    transition: transform 0.2s ease;
     /* 设定过渡时间和效果 */
 }
 
 .linkicon:hover img {
-    transform: scale(1.5); 
+    transform: scale(1.5);
 }
 
 #qsz {
