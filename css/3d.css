@@ -10,6 +10,91 @@ body {
     height: 100%;
     font-family: Arial, sans-serif;
     background-color: #222222;
+    position: relative;
+}
+
+.menu {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    margin-top: 80px;
+    z-index: 9999;
+}
+
+.menubox {
+    width: 250px;
+    height: 530px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0));
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    margin-left: 90px;
+    position: absolute;
+    border: 1px solid rgb(255, 255, 255, 0.3);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.2s ease;
+}
+
+.menubox:hover {
+    transform: translateY(-10px);
+}
+
+.menubox img {
+    width: 200px;
+    height: 170px;
+    margin-top: 20px;
+    transition: transform 0.2s ease;
+}
+
+.menubox img:hover {
+    transform: scale(1.5);
+}
+
+.menubox a {
+    text-decoration: none;
+}
+
+.copyright {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.copyright p {
+    font-size: 12px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.button {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    transition: background-color 1s ease;
+    transition: transform 0.2s ease;
+}
+
+.button:hover {
+    background-color: #ff9900;
+    transform: scale(1.1);
+}
+
+.button p {
+    font-size: 14px;
+    color: #282828;
+    transition: background-color 0.3s ease;
+}
+
+.button p:hover {
+    font-weight: bold;
+    color: #ffffff;
 }
 
 .model {
